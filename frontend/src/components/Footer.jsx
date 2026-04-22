@@ -26,6 +26,15 @@ export const Footer = () => {
               <li><a href="/register" className="text-light text-decoration-none hover-cyan">Registrarse</a></li>
             </ul>
           </div>
+          <div className="col-lg-2 col-md-6">
+            <h6 className="fw-bold mb-3 text-cyan">Enlaces</h6>
+            <ul className="list-unstyled">
+              <li><a href="/" className="text-light text-decoration-none hover-cyan">Inicio</a></li>
+              <li><a href="/productos" className="text-light text-decoration-none hover-cyan">Productos</a></li>
+              <li><a href="/login" className="text-light text-decoration-none hover-cyan">Ingresar</a></li>
+              <li><a href="/register" className="text-light text-decoration-none hover-cyan">Registrarse</a></li>
+            </ul>
+          </div>
           <div className="col-lg-3 col-md-6">
             <h6 className="fw-bold mb-3 text-cyan">Contacto</h6>
             <ul className="list-unstyled text-light">

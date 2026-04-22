@@ -15,17 +15,16 @@ const { user, isAuth } = useSelector((state) => state.users);
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-primary">
       <div className="container">
        
-        {/* === INICIO CAMBIO DE LOGO === */}
+        
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img 
             src="/Logo completo mini.png" // 👈 RUTA DIRECTA a public/
             alt="ZhenNova Logo" 
             style={{ height: '70px', marginRight: '0px' }} // 👈 Ajusta la altura
           />
-          {/* Opcional: Mantener el texto, pero más pequeño o como alternativa */}
-          {/* <span className="text-cyan fw-bold fs-5 d-none d-sm-block">ZhenNova</span> */}
+          
         </Link>
-        {/* === FIN CAMBIO DE LOGO === */}      
+          
         
         <button 
           className="navbar-toggler" 
@@ -48,11 +47,11 @@ const { user, isAuth } = useSelector((state) => state.users);
             </li>
 
             <li className="nav-item">
-              {/* RUTA CORREGIDA: "/nosotros" */}
+              
               <NavLink className="nav-link fw-semibold mx-2" to="/nosotros">Nosotros</NavLink> 
             </li>
             <li className="nav-item">
-              {/* RUTA CORREGIDA: "/contacto" */}
+              
               <NavLink className="nav-link fw-semibold mx-2" to="/contacto">Contacto</NavLink>
             </li>
           </ul>
@@ -102,7 +101,7 @@ const { user, isAuth } = useSelector((state) => state.users);
               </Link>
             )}
 
-            {/* Botón Carrito (Estático por ahora como pediste) */}
+            
             <button className="btn btn-outline-warning position-relative ms-3" title="Carrito de Compras">
               <i className="bi bi-cart-fill"></i>
               <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
